@@ -3,7 +3,7 @@
 // Every version shares one origin (rekaruka55.github.io), so caches are named with this version's prefix
 // and only this version's old caches are removed.
 const PREFIX = "okiben-";
-const CACHE = PREFIX + "mwkmooc0";
+const CACHE = PREFIX + "mwl12ngq";
 
 self.addEventListener("install", e => {
   e.waitUntil(caches.open(CACHE).then(c => c.add("./")));
